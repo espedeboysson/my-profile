@@ -1,0 +1,51 @@
+body {
+    background-color: #ADDC8A;
+}
+
+div.main {
+    margin-top: 80px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bouton a {
+    border:none;
+    padding:100px 100px;
+    border-radius:8px;
+    background:#ADDC8A;
+    font:bold 13px Arial;
+    color:#ADDC8A;
+}
+
+div.block {
+    padding-top: 40px;
+}
+
+h1.title {
+    text-align : center; color: #296100
+}
+
+img.round {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+@media (max-width: 700px) {
+    img.round {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+div.social a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
